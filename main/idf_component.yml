@@ -1,0 +1,12 @@
+## IDF Component Manager manifest
+##
+## Run `idf.py reconfigure` after editing to refresh managed_components/
+## and regenerate dependencies.lock (which IS committed, to pin versions).
+
+dependencies:
+  idf: ">=5.0"
+
+  # USB Host HID class driver.
+  # API verified against v1.2.0:
+  #   https://github.com/espressif/esp-usb/tree/master/host/class/hid/usb_host_hid
+  espressif/usb_host_hid: "^1.2.0"

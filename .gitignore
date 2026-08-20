@@ -1,0 +1,18 @@
+# ESP-IDF build output
+build/
+sdkconfig
+sdkconfig.old
+
+# Managed components are fetched by the component manager.
+# dependencies.lock IS tracked on purpose - it pins exact component versions.
+managed_components/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Captured logs from bring-up (keep the repo clean; copy interesting ones into docs/)
+*.log
+captures/
